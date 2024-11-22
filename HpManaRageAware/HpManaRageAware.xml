@@ -1,0 +1,26 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+    <Frame name="HpManaRageAwareFrame" parent="UIParent" hidden="false">
+        <Size>
+            <AbsDimension x="300" y="150"/>
+        </Size>
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+        <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+            <EdgeSize>
+                <AbsValue val="16"/>
+            </EdgeSize>
+        </Backdrop>
+        <Layers>
+            <Layer level="BACKGROUND">
+                <Texture name="$parentBackground" setAllPoints="true" file="Interface\DialogFrame\UI-DialogBox-Background" texCoords="0 1 0 1"/>
+            </Layer>
+        </Layers>
+        <FontString name="$parentLevelText" inherits="GameFontNormal" setAllPoints="true">
+            <Anchors>
+                <Anchor point="TOP" y="-10"/>
+            </Anchors>
+            <Text>Level: 1</Text>
+        </FontString>
+    </Frame>
+</Ui>

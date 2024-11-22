@@ -1,0 +1,6 @@
+## Interface: 20501
+## Title: HpManaRageAware
+## Notes: Tracks level progression, health, and mana/rage
+## Author: YourName
+
+HpManaRageAware.lua
